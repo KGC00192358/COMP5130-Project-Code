@@ -344,6 +344,7 @@ def main():
     sns.heatmap(confusion_mat, square=True, annot=True, fmt='d', cbar=False, xticklabels=(label_names), yticklabels=(label_names))
     plt.ylabel('Predicted')
     plt.xlabel('Actual')
+    plt.savefig("ClassifyerHeatMap.png")
     plt.show()
 
 main()

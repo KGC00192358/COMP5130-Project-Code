@@ -94,6 +94,7 @@ def main():
 
     plt.ylabel('Predicted')
     plt.xlabel('Actual')
+    plt.savefig("BenchmarkHeatMap.png")
     plt.show()
 
 main()

@@ -1,4 +1,5 @@
 #!/bin//bash
 
-rm OutputSummary.txt
-rm BadPredictionsOut.txt
+rm *.txt
+rm *.png
+rm *.avi

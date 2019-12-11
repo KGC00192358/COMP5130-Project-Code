@@ -1,2 +1,0 @@
-Accuracy: 0.843585237258348
-Number of Rules(check RulesSummary for More Information): 12
